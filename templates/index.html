@@ -33,7 +33,7 @@ div {text-align: center;}
 <!-- Main Input For Receiving Query to our ML -->
 <form action="{{ url_for('predict')}}"method="get">
 <div class="form-floating mb-3">
-<input type="number" class="form-control" id="exp" name="exp" step="any" min="0" max="100" placeholder="0" required="required">
+<input type="number" class="form-control" id="exp" name="exp" step="any" min="0" max="10000000000000000000000000000000000000000000000" placeholder="0" required="required">
 <label for="floatingInput">Enter Area in Sqft </label>
 </div>
 <br>
